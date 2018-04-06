@@ -5,7 +5,7 @@ A script to export `docker-compose` and `rancher-compose` configurations via the
 
 # THIS IS A FORK OF YOGAGlo for have this great tool in the docker hub
 - Link: https://hub.docker.com/r/leen15/rancher-export/   
-- Add same envs specified below  
+- Add envs specified below  
 - Mount a volume to /app/export for save generated files
 - example command: `docker run --name=rancher-export --env-file .env -v /host/somepath:/app/export leen15/rancher-export`
 
